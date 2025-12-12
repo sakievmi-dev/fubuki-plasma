@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S git
+sudo pacman -S --needed --noconfirm git
 
 #   CHECKING IF PLASMA IS RUNNING
 if [[ "${XDG_CURRENT_DESKTOP:-}" != *KDE* && "${XDG_CURRENT_DESKTOP:-}" != *Plasma* ]]; then
@@ -27,3 +27,6 @@ rm -rf /tmp/fubuki-plasma/
 #   ADDING ~/.local/bin TO PATH
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
+
+#   DONE
+echo "Done! Use 'fubuki-install' to install fubuki-plasma setup."
