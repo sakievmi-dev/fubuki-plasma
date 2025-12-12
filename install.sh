@@ -19,7 +19,7 @@ echo "Installing scripts into /usr/bin..."
 sudo rm ~/.local/bin/fubuki-install
 sudo rm ~/.local/bin/fubuki-cheatsheet
 
-mkdir -p ~/.local/bin
+mkdir -p ~/.local/bin/
 
 install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh ~/.local/bin/fubuki-install
 install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh ~/.local/bin/fubuki-cheatsheet
