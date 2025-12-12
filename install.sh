@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 sudo pacman -S git
 
 #   CHECKING IF PLASMA IS RUNNING
@@ -24,4 +22,4 @@ mkdir -p ~/.local/bin/
 install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh ~/.local/bin/fubuki-install
 install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh ~/.local/bin/fubuki-cheatsheet
 
-rm -rf /tmp/fubuki-plasma
+rm -rf /tmp/fubuki-plasma/
