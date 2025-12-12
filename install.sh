@@ -17,8 +17,8 @@ echo "Installing scripts into /usr/bin..."
 sudo rm /usr/bin/fubuki-install
 sudo rm /usr/bin/fubuki-cheatsheet
 
-install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh /usr/bin/fubuki-install
-install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh /usr/bin/fubuki-cheatsheet
+sudo install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh /usr/bin/fubuki-install
+sudo install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh /usr/bin/fubuki-cheatsheet
 
 rm -rf /tmp/fubuki-plasma/
 
