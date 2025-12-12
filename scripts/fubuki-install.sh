@@ -22,9 +22,7 @@ done
 sudo pacman -Syu --needed --noconfirm base-devel git curl zsh python-pipx stow
 
 #   DOWNLOADING RESOURCES
-git clone --filter=blob:none --sparse https://github.com/sakievmi-dev/fubuki-plasma.git /tmp/fubuki-plasma
-cd /tmp/fubuki-plasma
-git sparse-checkout set resources
+git clone https://github.com/sakievmi-dev/fubuki-plasma /tmp/fubuki-plasma
 
 RESOURCES="/tmp/fubuki-plasma/resources"
 
