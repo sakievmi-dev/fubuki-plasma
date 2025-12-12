@@ -5,5 +5,4 @@ ButtonSize=ButtonSmall
 ButtonSpacing=0
 ButtonStyle=darkAuroraeMonochromeSymbols
 DrawSizeGrip=true
-HideTitleBar=AnyMaximization
 MatchColorForTitleBar=true

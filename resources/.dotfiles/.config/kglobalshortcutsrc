@@ -1,12 +1,13 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-43f673b3-ea1a-4f08-9872-5a762db20746=none,none,Switch to activity "Default"
+switch-to-activity-72e19490-fb21-47f6-b8b5-ef06b99cdef5=none,none,Switch to activity "Default"
 switch-to-activity-dd35d689-cf1a-4991-b71d-634ccbc73b6a=none,none,Switch to activity "Default"
 switch-to-activity-e3a32a68-9ec6-41f7-9356-991ef3feaf04=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
+Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -25,14 +26,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mut
 mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
-Halt Without Confirmation=none,,Shut Down Without Confirmation
+Halt Without Confirmation=none,none,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
-Log Out Without Confirmation=none,,Log Out Without Confirmation
-LogOut=none,,Log Out
-Reboot=none,,Reboot
-Reboot Without Confirmation=none,,Reboot Without Confirmation
-Shut Down=none,,Shut Down
+Log Out Without Confirmation=none,none,Log Out Without Confirmation
+LogOut=none,none,Log Out
+Reboot=none,none,Reboot
+Reboot Without Confirmation=none,none,Reboot Without Confirmation
+Shut Down=none,none,Shut Down
 _k_friendly_name=Session Management
 
 [kwin]
@@ -48,6 +49,41 @@ ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on curr
 Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
+KrohnkiteBTreeLayout=none,none,Krohnkite: BTree Layout
+KrohnkiteColumnsLayout=none,none,Krohnkite: Columns Layout
+KrohnkiteDecrease=none,none,Krohnkite: Decrease
+KrohnkiteFloatAll=Meta+Shift+F,none,Krohnkite: Toggle Float All
+KrohnkiteFloatingLayout=none,none,Krohnkite: Floating Layout
+KrohnkiteFocusDown=Meta+J,none,Krohnkite: Focus Down
+KrohnkiteFocusLeft=Meta+H,none,Krohnkite: Focus Left
+KrohnkiteFocusNext=none,none,Krohnkite: Focus Next
+KrohnkiteFocusPrev=Meta+\\,,none,Krohnkite: Focus Previous
+KrohnkiteFocusRight=none,none,Krohnkite: Focus Right
+KrohnkiteFocusUp=Meta+K,none,Krohnkite: Focus Up
+KrohnkiteGrowHeight=Meta+Ctrl+J,none,Krohnkite: Grow Height
+KrohnkiteIncrease=none,none,Krohnkite: Increase
+KrohnkiteMonocleLayout=Meta+M,none,Krohnkite: Monocle Layout
+KrohnkiteNextLayout=Meta+\\\\,none,Krohnkite: Next Layout
+KrohnkitePreviousLayout=Meta+|,none,Krohnkite: Previous Layout
+KrohnkiteQuarterLayout=none,none,Krohnkite: Quarter Layout
+KrohnkiteRotate=none,none,Krohnkite: Rotate
+KrohnkiteRotatePart=none,none,Krohnkite: Rotate Part
+KrohnkiteSetMaster=none,none,Krohnkite: Set master
+KrohnkiteShiftDown=Meta+Shift+J,none,Krohnkite: Move Down/Next
+KrohnkiteShiftLeft=Meta+Shift+H,none,Krohnkite: Move Left
+KrohnkiteShiftRight=Meta+Shift+L,none,Krohnkite: Move Right
+KrohnkiteShiftUp=Meta+Shift+K,none,Krohnkite: Move Up/Prev
+KrohnkiteShrinkHeight=Meta+Ctrl+K,none,Krohnkite: Shrink Height
+KrohnkiteShrinkWidth=Meta+Ctrl+H,none,Krohnkite: Shrink Width
+KrohnkiteSpiralLayout=none,none,Krohnkite: Spiral Layout
+KrohnkiteSpreadLayout=none,none,Krohnkite: Spread Layout
+KrohnkiteStackedLayout=none,none,Krohnkite: Stacked Layout
+KrohnkiteStairLayout=none,none,Krohnkite: Stair Layout
+KrohnkiteTileLayout=none,none,Krohnkite: Tile Layout
+KrohnkiteToggleFloat=Meta+F,none,Krohnkite: Toggle Float
+KrohnkiteTreeColumnLayout=none,none,Krohnkite: Three Column Layout
+KrohnkitegrowWidth=Meta+Ctrl+L,none,Krohnkite: Grow Width
+KrohnkitetoggleDock=none,none,Krohnkite: Toggle Dock
 Move Tablet to Next Output=none,none,Move the tablet to the next output
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
@@ -55,7 +91,7 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
-Overview=,Meta+W,Toggle Overview
+Overview=Meta+Tab,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
@@ -190,17 +226,30 @@ Window to Screen 6=none,,Move Window to Screen 6
 Window to Screen 7=none,,Move Window to Screen 7
 _k_friendly_name=KWin
 disableInputCapture=Meta+Shift+Esc,Meta+Shift+Esc,Disable Active Input Capture
+kTile=Ctrl+.,none,kTile
+kTile Position 1=none,none,kTile Position 1
+kTile Position 10=none,none,kTile Position 10
+kTile Position 11=none,none,kTile Position 11
+kTile Position 12=none,none,kTile Position 12
+kTile Position 2=none,none,kTile Position 2
+kTile Position 3=none,none,kTile Position 3
+kTile Position 4=none,none,kTile Position 4
+kTile Position 5=none,none,kTile Position 5
+kTile Position 6=none,none,kTile Position 6
+kTile Position 7=none,none,kTile Position 7
+kTile Position 8=none,none,kTile Position 8
+kTile Position 9=none,none,kTile Position 9
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
 nextmedia=Meta+Shift+N\tMedia Next,Media Next,Media playback next
 pausemedia=Meta+Shift+P\tMedia Pause,Media Pause,Pause media playback
-playmedia=none,,Play media playback
+playmedia=none,none,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Meta+Shift+B\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -236,7 +285,7 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 136=none,none,Activate Digital Clock Widget
-activate widget 138=none,none,Activate Application Menu Widget
+activate widget 152=none,none,Activate Application Menu Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
