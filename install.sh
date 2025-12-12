@@ -23,3 +23,7 @@ install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh ~/.local/bin/fubuki-
 install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh ~/.local/bin/fubuki-cheatsheet
 
 rm -rf /tmp/fubuki-plasma/
+
+#   ADDING ~/.local/bin TO PATH
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
