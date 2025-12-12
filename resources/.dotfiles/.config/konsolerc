@@ -1,0 +1,17 @@
+[Desktop Entry]
+DefaultProfile=Main.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Enabled
+
+[MainWindow][Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly
+
+[Notification Messages]
+quick-commands-question=true
+
+[Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly

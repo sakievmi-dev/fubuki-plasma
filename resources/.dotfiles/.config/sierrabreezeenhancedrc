@@ -1,0 +1,9 @@
+[Windeco]
+AnimationsEnabled=false
+BackgroundOpacity=50
+ButtonSize=ButtonSmall
+ButtonSpacing=0
+ButtonStyle=darkAuroraeMonochromeSymbols
+DrawSizeGrip=true
+HideTitleBar=AnyMaximization
+MatchColorForTitleBar=true

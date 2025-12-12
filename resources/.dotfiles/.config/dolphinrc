@@ -1,0 +1,16 @@
+[General]
+DoubleClickViewAction=none
+RememberOpenedTabs=false
+Version=202
+ViewPropsTimestamp=2025,12,10,21,47,52.999
+
+[IconsMode]
+IconSize=22
+PreviewSize=22
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail
