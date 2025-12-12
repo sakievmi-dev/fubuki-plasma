@@ -14,19 +14,13 @@ git clone https://github.com/sakievmi-dev/fubuki-plasma /tmp/fubuki-plasma
 
 echo "Installing scripts into /usr/bin..."
 
-sudo rm ~/.local/bin/fubuki-install
-sudo rm ~/.local/bin/fubuki-cheatsheet
+sudo rm /usr/bin/fubuki-install
+sudo rm /usr/bin/fubuki-cheatsheet
 
-mkdir -p ~/.local/bin/
-
-install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh ~/.local/bin/fubuki-install
-install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh ~/.local/bin/fubuki-cheatsheet
+install -m 755 /tmp/fubuki-plasma/scripts/fubuki-install.sh /usr/bin/fubuki-install
+install -m 755 /tmp/fubuki-plasma/scripts/fubuki-cheatsheet.sh /usr/bin/fubuki-cheatsheet
 
 rm -rf /tmp/fubuki-plasma/
-
-#   ADDING ~/.local/bin TO PATH
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
 
 #   DONE
 echo "Done! Use 'fubuki-install' to install fubuki-plasma setup."
