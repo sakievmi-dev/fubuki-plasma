@@ -45,14 +45,17 @@ pipx inject konsave setuptools # this is so fucking dumb
 yay -S --needed --noconfirm plasma6-applets-panel-colorizer kde-material-you-colors kwin-decoration-sierra-breeze-enhanced-git
 
 #   CONFIGS
-rm -r /.fubuki-dotfiles # for updates
+rm -r ~/.fubuki-dotfiles # for updates
 mkdir ~/.fubuki-dotfiles
 
 konsave -r fubuki # for updates
 konsave -i $RESOURCES/fubuki.knsv
 konsave -a fubuki
 
-mv $RESOURCES/.dotfiles/* ~/.fubuki-dotfiles
+shopt -s dotglob
+cp -r $RESOURCES/.dotfiles/* ~/.fubuki-dotfiles
+shopt -u dotglob
+
 cd ~/.fubuki-dotfiles
 stow . --adopt
 
