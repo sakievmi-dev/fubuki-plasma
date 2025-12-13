@@ -4,11 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="agnoster"
 source $ZSH/oh-my-zsh.sh
 
-plugins=(
-    git 
-    zsh-syntax-highlighting 
-    zsh-autosuggestions
-)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
