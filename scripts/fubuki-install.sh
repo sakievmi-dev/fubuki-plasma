@@ -41,8 +41,8 @@ pipx install --force konsave
 pipx ensurepath
 pipx inject konsave setuptools # this is so fucking dumb
 
-#   KDE WIDGETS
-yay -S --needed --noconfirm plasma6-applets-panel-colorizer kde-material-you-colors kwin-decoration-sierra-breeze-enhanced-git
+#   KDE ADDITIONS
+yay -S --needed --noconfirm plasma6-applets-panel-colorizer kde-material-you-colors kwin-decoration-sierra-breeze-enhanced-git klassy
 
 #   CONFIGS
 rm -r ~/.fubuki-dotfiles # for updates
@@ -73,4 +73,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/plug
 #   END
 sudo rm -rf /tmp/fubuki-plasma/
 
-echo "Setup complete! Re-login to apply all changes. Have fun!"
+echo "Setup complete! Re-login to apply all changes. If setup doesn't apply after re-login, start 'fubuki-install' and re-login again!"
+echo
+echo "Have fun!"

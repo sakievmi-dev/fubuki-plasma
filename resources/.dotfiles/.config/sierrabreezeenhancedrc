@@ -1,8 +1,9 @@
 [Windeco]
 AnimationsEnabled=false
-BackgroundOpacity=50
+BackgroundOpacity=100
 ButtonSize=ButtonSmall
 ButtonSpacing=0
 ButtonStyle=darkAuroraeMonochromeSymbols
 DrawSizeGrip=true
 MatchColorForTitleBar=true
+
