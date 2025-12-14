@@ -1,7 +1,7 @@
 # Fubuki Plasma
 My personal KDE Plasma setup inspired by Shirakami Fubuki.
 
-## **WARNING**
+## **⚠️ WARNING**
 - Arch Linux only
 - KDE Plasma session required
 - The installer modifies your oh-my-zsh, zsh and Plasma configurations and may overwrite existing settings
