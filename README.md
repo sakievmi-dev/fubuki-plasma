@@ -1,2 +1,3 @@
-# fubuki-plasma
+# Fubuki Plasma
 My personal KDE Plasma setup inspired by Shirakami Fubuki.
+
